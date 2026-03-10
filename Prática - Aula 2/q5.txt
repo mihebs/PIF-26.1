@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+    float base, altura;
+    
+    printf("Olá, usuário! Por favor, digite o valor da base e da altura do retângulo para calcular a sua área:");
+    
+    scanf("%f", &base);
+    scanf("%f", &altura);
+    
+    float area = base * altura;
+    
+    printf("A área do retângulo é: %f", area);
+}

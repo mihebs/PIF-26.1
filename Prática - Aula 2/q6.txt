@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+    float met;
+    
+    printf("Olá, usuário! Insira o valor em Metros para converter em Centimetros:");
+    
+    scanf("%f", &met);
+
+    float cms = met * 100;
+    
+    printf("%f metros em centimetros é: %.2f\n", met, cms);
+}
